@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+gems: [jekyll-paginate]
+paginate_path: "page:num"
+
+# Setup
+title:               j31d0
+tagline:             'Blog'
+description:         'kaist ingyo'
+url:                 http://j31d0.github.io
+baseurl:             ''
+paginate:            5
+timezone:            Asia/Tokyo
+
+# About/contact
+author:
+  name:              Park jihee
+  url:               https://j31d0.github.io
+  email:             j31d0@kaist.ac.kr
+
+# Custom vars
+version:             1.0.0
