@@ -18,7 +18,7 @@ real문제는 stack offset을 알려주고, 임의의 한 바이트 (어차피 s
 
 다음이 문제의 대략적인 구조이다.
 
-```C
+```c
   printf("Reference Stack Pointer is %p\n", &i);
   ...
   printf("Which Address Do you Want to See? -->");
